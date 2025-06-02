@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio - Velázquez Edgar Jesús</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-green-600">Velázquez Edgar Jesús</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#sobre-mi" class="hover:text-green-600">Sobre mí</a></li>
+        <li><a href="#proyectos" class="hover:text-green-600">Proyectos</a></li>
+        <li><a href="#contacto" class="hover:text-green-600">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="container mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-10">
+    <img src="/fotos/foto-portfolio.jpg" alt="" class="rounded-full shadow-md w-96 h-96 object-cover">
+    <div>
+      <h2 class="text-3xl font-bold mb-4">Hola, soy Jesús</h2>
+      <p class="text-lg leading-relaxed">
+        Soy estudiante y freelancer en Desarrollo de Software. Me apasiona aprender, investigar nuevas tecnologías y trabajar en equipo para resolver problemas reales. Me enfoco en soluciones prácticas, limpias y bien pensadas.
+      </p>
+      <ol class="list-disc list-inside mt-4 space-y-2">
+        <li>Lenguajes: Java, JavaScript, PHP</li>
+        <li>Frameworks: Laravel, Spring Boot</li>
+        <li>Base de datos: MySQL</li>
+        <li>Herramientas: Git, Postman, Visual Studio Code, NetBeans</li>
+        <li>Metodologías: Agile, Scrum</li>
+        <li>Idiomas: Español (nativo), Inglés (intermedio)</li>
+        </ol>
+    </div>
+  </section>
+<!-- Titulos -->
+<section id="educacion" class="container mx-auto px-6 py-16">
+  <h1 class="text-4xl font-bold text-center text-green-700 mb-10">Formación Académica</h1>
+  <div class="grid md:grid-cols-2 gap-8 justify-center items-start">
+    
+    <!-- Tarjeta 1 -->
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center flex flex-col items-center">
+      <div class="w-24 h-24 flex items-center justify-center mb-4">
+        <img src="/fotos/logo-ETP.png" alt="Logo Escuela Técnica" class="max-w-full max-h-full object-contain">
+      </div>
+      <h2 class="text-xl font-semibold text-green-700 text-center">Técnico en Informática Profesional y Personal</h2>
+      <p class="text-gray-600 mt-2 text-sm">E.T.P. N°1 “Gral. Aristobulo Vargas Belmonte” - San Salvador de Jujuy, Jujuy, Argentina</p>
+    </div>
+
+    <!-- Tarjeta 2 -->
+    <div class="bg-white rounded-lg shadow-lg p-6 text-center flex flex-col items-center">
+      <div class="w-24 h-24 flex items-center justify-center mb-4">
+        <img src="/fotos/logo-IESNH.jpg" alt="Logo Instituto Superior" class="max-w-full max-h-full object-contain">
+      </div>
+      <h2 class="text-xl font-semibold text-green-700 text-center">Técnico Superior en Desarrollo de Software</h2>
+      <p class="text-gray-600 mt-2 text-sm">Instituto de Educación Superior “Nuevo Horizonte” - San Salvador de Jujuy, Jujuy, Argentina</p>
+    </div>
+
+  </div>
+</section>
+  <!-- Proyectos -->
+  <section id="proyectos" class="bg-white py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Proyectos</h2>
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8">
+      
+      <!-- Proyecto 1 -->
+    <div class="bg-white rounded-2xl shadow-lg p-6 max-w-md mx-auto flex flex-col items-center text-center space-y-4">
+  <img src="/fotos/EasyTurno.jpg" alt="EasyTurno" class="rounded-xl w-full object-cover max-h-48 shadow-md">
+
+  <h3 class="text-2xl font-bold text-gray-800">EasyTurno</h3>
+
+  <p class="text-gray-600 text-base">
+    <span class="font-semibold">Stack:</span> Laravel + JavaScript + Base de Datos
+  </p>
+
+  <div class="text-sm text-gray-700 space-y-2  text-justify">
+    <p>
+      Sistema para la gestión de turnos en gabinetes informáticos.
+    </p>
+    <p>
+     <span class="font-semibold">Funcionalidades:</span> gestión multigabinete, validación de usuarios, envío automático de correos.
+    </p>
+    <p>
+      Basado en el patrón de diseño <span class="font-medium italic">MVC</span>.
+    </p>
+  </div>
+
+  <a href="https://github.com/jesusvelazquez01/EasyTurno" target="_blank"
+     class="mt-4 inline-block bg-green-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-green-700 transition">
+     Ver en GitHub
+  </a>
+</div>
+ <!-- Proyecto 2 -->
+ <div class="bg-white rounded-2xl shadow-lg p-6 max-w-md mx-auto flex flex-col items-center text-center space-y-4">
+  <img src="/fotos/SistemaMuebleria.jpg" alt="EasyTurno" class="rounded-xl w-full object-cover max-h-48 shadow-md">
+
+  <h3 class="text-2xl font-bold text-gray-800">MuebleSoft</h3>
+
+  <p class="text-gray-600 text-base">
+    <span class="font-semibold">Stack:</span> Java + JSP + Base de Datos + JPA
+  </p>
+
+  <div class="text-sm text-gray-700 space-y-2  text-justify">
+    <p>
+      Sistema para la gestion de una muebleria, control de stock y ventas.
+    </p>
+    <p>
+     <span class="font-semibold">Funcionalidades:</span> gestión multigabinete, validación de usuarios, envío automático de correos.
+    </p>
+    <p>
+      Basado en el patrón de diseño <span class="font-medium italic">MVC</span>.
+    </p>
+  </div>
+
+  <a href="https://github.com/jesusvelazquez01/muebleriaSoft" target="_blank"
+     class="mt-4 inline-block bg-green-600 text-white px-5 py-2 rounded-lg font-medium hover:bg-green-700 transition">
+     Ver en GitHub
+  </a>
+</div>
+
+     
+      <div class="bg-white rounded-2xl  p-6 max-w-md mx-auto flex flex-col items-center text-center space-y-4">
+ <!-- Proyecto 3 PARA COMPLETAR CON OTRO PROYECTO -->
+</div>
+
+      <div class="bg-white rounded-2xl  p-6 max-w-md mx-auto flex flex-col items-center text-center space-y-4">
+ <!-- Proyecto 4 PARA COMPLETAR CON OTRO PROYECTO -->
+</div>
+  </section>
+
+
+  <!-- Contacto -->
+  <section id="contacto" class="text-center py-16 px-6 bg-green-100">
+    <h2 class="text-3xl font-bold mb-4">¿Trabajamos juntos?</h2>
+    <p class="mb-6">Podés escribirme por LinkedIn o enviarme un mail. ¡Estoy abierto a nuevas oportunidades!</p>
+    <a href="https://www.linkedin.com/in/tu-perfil" target="_blank" class="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700">Contactame</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-gray-600 bg-white border-t mt-10">
+    © 2025 Velázquez Edgar Jesús. Todos los derechos reservados.
+  </footer>
+
+
+</body>
+</html>
